@@ -28,12 +28,26 @@ public class PlayerController : MonoBehaviour
     //Obtenemos la camara, ya que esta ya no hace parte del objeto del jugador
     private Camera cam;
 
+    //Prefab para el impacto del disparo
+    public GameObject bulletImpact;
+    public float timeBetweenShots = 0.1f;
+    private float shotCounter;
+
+    public float maxHeat = 10f;
+    public float heatPerShot = 1f;
+    public float coolRate = 4f;
+    public float overheatCoolRate = 5f;
+    private float heatCounter;
+    private bool overHeated;
+
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
 
         cam = Camera.main;
+
+        UIController.instance.weaponTempSlider.maxValue = maxHeat;
     }
 
     // Update is called once per frame
@@ -102,6 +116,89 @@ public class PlayerController : MonoBehaviour
 
         //transform.position += movement * moveSpeed * Time.deltaTime;
         charCont.Move(movement * Time.deltaTime);
+
+        if (!overHeated)
+        {
+            //Disparamos
+            if (Input.GetMouseButtonDown(0))
+            {
+                Shoot();
+            }
+
+            if (Input.GetMouseButton(0))
+            {
+                shotCounter -= Time.deltaTime;
+
+                if (shotCounter <= 0)
+                {
+                    Shoot();
+                }
+            }
+
+            heatCounter -= coolRate * Time.deltaTime;
+        }
+        else
+        {
+            heatCounter -= overheatCoolRate * Time.deltaTime;
+
+            if(heatCounter <= 0)
+            {
+                overHeated = false;
+
+                UIController.instance.overheatedMessage.gameObject.SetActive(false);
+            }
+        }
+
+        if(heatCounter < 0)
+        {
+            heatCounter = 0f;
+        }
+
+        UIController.instance.weaponTempSlider.value = heatCounter;
+        
+
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else if(Cursor.lockState == CursorLockMode.None)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+        }
+    }
+
+    private void Shoot()
+    {
+        //Creamos un rayo desde el viewport que ve la camara
+        Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+        ray.origin = cam.transform.position;
+
+        if(Physics.Raycast(ray, out RaycastHit hit))
+        {
+            Debug.Log("He golpeado a " + hit.collider.gameObject.name);
+
+            //Instanciamos ligeramente por encima de la superficie para evitar los coplanares
+            GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point + (hit.normal * 0.002f), Quaternion.LookRotation(hit.normal, Vector3.up));
+
+            Destroy(bulletImpactObject, 10f);
+
+        }
+
+        shotCounter = timeBetweenShots;
+
+        heatCounter += heatPerShot;
+
+        if(heatCounter >= maxHeat)
+        {
+            heatCounter = maxHeat;
+            overHeated = true;
+
+            UIController.instance.overheatedMessage.gameObject.SetActive(true);
+        }
     }
 
     private void LateUpdate()
