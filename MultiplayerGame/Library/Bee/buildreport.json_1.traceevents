@@ -1,0 +1,510 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1664883270112137, "dur": 4911991, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664883270112478, "dur": 1248, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664883270113727, "dur": 250824, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664883270364553, "dur": 889195, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664883271253750, "dur": 3755436, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664883275009188, "dur": 14939, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664883275024463, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1664883271023054, "dur": 217471, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664883271024001, "dur": 45078, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664883271224877, "dur": 4674, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664883271229554, "dur": 10965, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664883271230408, "dur": 9538, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664883271244719, "dur": 1223, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664883271243921, "dur": 2042, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664883275024571, "dur": 966, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1664883271288314, "dur":800, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883271289120, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1664883271289193, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1664883271289211, "dur":360, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1664883271289593, "dur":443, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883271290036, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967270, "dur":106, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967376, "dur":67, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967443, "dur":42, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967485, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967493, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967495, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967501, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967503, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967509, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967511, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967517, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967519, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967524, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967526, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967533, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967535, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967542, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967550, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274967552, "dur":953, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1664883271289844, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883271290090, "dur":1824, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883271291927, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664883271291930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883271292515, "dur":264, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664883271292782, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664883271292803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883271292929, "dur":5283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664883271298216, "dur":112719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664883271410940, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883271410950, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664883271411740, "dur":33776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664883271445525, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883271445538, "dur":121038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664883271566596, "dur":243403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883271810005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883271810013, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883271810743, "dur":30520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883271841269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883271841278, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883271842084, "dur":41291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883271883386, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883271883399, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883271884431, "dur":118405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272002845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883272002858, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272003965, "dur":154577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272158549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883272158560, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272159592, "dur":105286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272264886, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883272264897, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272266371, "dur":66067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272332448, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883272332463, "dur":5319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272337809, "dur":59200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272397020, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883272397034, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272398746, "dur":83798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272482553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883272482563, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272485549, "dur":93404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272578959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883272578967, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272579781, "dur":187348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272767142, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883272767155, "dur":13725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272780901, "dur":76659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272857566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883272857575, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272858579, "dur":20236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272878820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883272878830, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883272881291, "dur":494908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883273376204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883273376212, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883273379218, "dur":923640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883274302862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664883274302869, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664883274303823, "dur":663450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664883271290515, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664883271290516, "dur":1444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664883271291960, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1664883271292006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664883271292992, "dur":202505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1664883271495511, "dur":3456962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664883274952478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664883274952483, "dur":14730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664883274967235, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1664883274967237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883271289980, "dur":155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883271290135, "dur":1823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883271291959, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1664883271292025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883271293179, "dur":29992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1664883271323191, "dur":35493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1664883271358691, "dur":52115, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883271410824, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1664883271411769, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1664883271411806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883271411813, "dur":270107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1664883271681944, "dur":94308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883271776261, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883271789204, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883271791251, "dur":117881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883271909141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883271909154, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883271910355, "dur":232944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272143307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883272143421, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272146108, "dur":64656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272210768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883272210775, "dur":26652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272237458, "dur":75030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272312496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883272312511, "dur":23593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272336122, "dur":143583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272479711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883272479845, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272481634, "dur":107230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272588871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883272588880, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272589579, "dur":60472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272650059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883272650071, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272651181, "dur":100963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272752152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883272752174, "dur":30734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272782933, "dur":69016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272851957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883272851969, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272853301, "dur":52697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272906006, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883272906019, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883272907260, "dur":215906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883273123173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273123181, "dur":71092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883273194301, "dur":47783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883273242089, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273242101, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883273243087, "dur":343886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883273586978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273586986, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883273589059, "dur":24139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883273613227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273613237, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664883273614115, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1664883273614201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273614357, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1664883273615071, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1664883273615092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273615114, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1664883273616327, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664883273616348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273616357, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664883273617148, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1664883273617263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273617270, "dur":27596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1664883273644887, "dur":830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1664883273645721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273645727, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1664883273646731, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664883273646758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273646767, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664883273647748, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1664883273647763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273647768, "dur":673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1664883273648454, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664883273648476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273648483, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664883273649352, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1664883273649372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273649379, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1664883273650121, "dur":628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1664883273650752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664883273650758, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1664883273651479, "dur":1315792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271290268, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271290268, "dur":1652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271291926, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664883271291994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271293131, "dur":32899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664883271326043, "dur":84968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1664883271411015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271411052, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1664883271412327, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1664883271412364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271412371, "dur":41187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1664883271453574, "dur":126950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883271580531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271580573, "dur":9197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883271589794, "dur":158297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883271748099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271748417, "dur":43182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883271791625, "dur":81917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883271873549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271873560, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883271874533, "dur":81925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883271956466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271956477, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883271957410, "dur":39910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883271997331, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883271997348, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883271999059, "dur":142327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272141398, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883272141412, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272142561, "dur":54191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272196760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883272196771, "dur":39409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272236205, "dur":69027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272305241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883272305291, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272307230, "dur":48393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272355629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883272355638, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272356457, "dur":135096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272491559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883272491568, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272492307, "dur":46122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272538435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883272538443, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272539241, "dur":53674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272592922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883272592933, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272593830, "dur":64066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272657903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883272657915, "dur":5601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272663553, "dur":210615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272874175, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883272874187, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272875397, "dur":26281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272901686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883272901730, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883272903176, "dur":182496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883273085678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883273085687, "dur":107855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883273193562, "dur":47424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883273241003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883273241019, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883273242042, "dur":737461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883273979510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664883273979544, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664883273982700, "dur":984588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883271290131, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883271290132, "dur":1787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883271291927, "dur":119086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1664883271411018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883271411199, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1664883271411864, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1664883271411895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883271411901, "dur":36871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1664883271448792, "dur":117528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883271566327, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883271566805, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883271569869, "dur":203126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883271773033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883271789187, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883271791573, "dur":158059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883271949638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883271949647, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883271950571, "dur":166645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272117223, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883272117235, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272118732, "dur":56662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272175400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883272175409, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272176394, "dur":47478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272223878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883272223887, "dur":13003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272236912, "dur":69996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272306915, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883272306927, "dur":28244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272335198, "dur":99526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272434731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883272434741, "dur":40888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272475655, "dur":106159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272581825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883272581837, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272582798, "dur":95555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272678360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883272678381, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883272679333, "dur":426282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883273105621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883273105629, "dur":87935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883273193586, "dur":122106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883273315697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883273315729, "dur":41757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883273357508, "dur":132581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883273490096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883273490104, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883273490944, "dur":283302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883273774253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664883273774263, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664883273775187, "dur":1192083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883271290389, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883271290390, "dur":1570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883271291960, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1664883271292003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883271293141, "dur":25851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1664883271319008, "dur":33535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1664883271352552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883271352606, "dur":212461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1664883271565089, "dur":208012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1664883271773104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883271773108, "dur":18722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1664883271791855, "dur":68483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883271860356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883271860368, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883271861477, "dur":45743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883271907226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883271907235, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883271908564, "dur":71755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883271980329, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883271980346, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883271981791, "dur":56506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272038304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272038313, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272039122, "dur":116609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272155737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272155747, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272157016, "dur":115170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272272196, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272272216, "dur":9318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272281562, "dur":56615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272338183, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272338195, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272339019, "dur":45757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272384782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272384791, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272385728, "dur":93009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272478820, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272478848, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272480065, "dur":131446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272611518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272611529, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272612465, "dur":118178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272730652, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272730666, "dur":49978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272780671, "dur":11187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272791864, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272791874, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272792724, "dur":97413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272890145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272890156, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272892656, "dur":77628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883272970291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883272970302, "dur":222830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883273193163, "dur":100964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883273294133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883273294141, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883273295141, "dur":237322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883273532470, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883273532481, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883273534002, "dur":564159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883274098166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664883274098173, "dur":3865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664883274102054, "dur":865229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883271290645, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883271290645, "dur":1314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883271291959, "dur":30770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1664883271322733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883271322739, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1664883271323319, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1664883271323350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883271323611, "dur":87658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1664883271411289, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1664883271411360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883271411370, "dur":155064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1664883271566456, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1664883271566502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883271566670, "dur":118751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1664883271685450, "dur":62663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883271748118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883271748420, "dur":43088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883271791545, "dur":107723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883271899286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883271899298, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883271902449, "dur":110617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272013101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272013112, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272014530, "dur":138728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272153266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272153278, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272154780, "dur":117584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272272368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272272374, "dur":8342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272280742, "dur":63394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272344173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272344182, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272344955, "dur":62011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272406972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272406981, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272407760, "dur":84689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272492454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272492467, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272493189, "dur":83100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272576298, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272576322, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272577221, "dur":60662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272637891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272637933, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272639056, "dur":125636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272764699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272764712, "dur":21077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272785831, "dur":72536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272858376, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272858389, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272859299, "dur":58530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272917835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883272917843, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883272918705, "dur":195865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883273114578, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883273114590, "dur":80438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883273195042, "dur":281770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883273476819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883273476827, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883273478023, "dur":298435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883273776463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664883273776470, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664883273777479, "dur":1189815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883271290740, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883271290741, "dur":1185, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883271291927, "dur":30553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1664883271322513, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883271322524, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1664883271323197, "dur":29391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1664883271352594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883271352615, "dur":212475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1664883271565113, "dur":42132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock.exe" }}
+,{ "pid":12345, "tid":8, "ts":1664883271607250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883271607256, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock.exe" }}
+,{ "pid":12345, "tid":8, "ts":1664883271608404, "dur":177368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883271785778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883271789210, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883271791563, "dur":109046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883271900621, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883271900636, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883271901966, "dur":113436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272015408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883272015419, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272016489, "dur":65502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272082000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883272082011, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272083084, "dur":92312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272175400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883272175409, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272176474, "dur":32305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272208784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883272208814, "dur":27899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272236734, "dur":79112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272315854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883272315865, "dur":19747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272335632, "dur":112039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272447679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883272447692, "dur":31681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272479398, "dur":280884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272760288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883272760297, "dur":25884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272786211, "dur":24749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272810968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883272810980, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272812065, "dur":12935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272825008, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883272825021, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272826217, "dur":52592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272878817, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883272878830, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883272880112, "dur":183543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883273063664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883273063676, "dur":118217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883273181917, "dur":118458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883273300382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883273300393, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883273301508, "dur":242825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883273544338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883273544346, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883273545855, "dur":397386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883273943246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664883273943254, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documentos/Multiplayergame_borrar/Future Shock_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664883273944155, "dur":1023146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664883274969668, "dur":2070, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1664883275025616, "dur": 592, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664883275024447, "dur": 1786, "ph": "X", "name": "Write chrome-trace events", "args": {} },
