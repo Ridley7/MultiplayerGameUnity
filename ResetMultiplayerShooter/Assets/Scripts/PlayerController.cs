@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheckPoint;
     private bool isGrounded;
     public LayerMask groundLayers;
+    private float muzzleCounters;
 
     //Obtenemos la camara, ya que esta ya no hace parte del objeto del jugador
     private Camera cam;
@@ -32,6 +33,8 @@ public class PlayerController : MonoBehaviour
     public GameObject bulletImpact;
     //public float timeBetweenShots = 0.1f;
     private float shotCounter;
+    public float muzzleDisplayTime;
+
 
     public float maxHeat = 10f;
     //public float heatPerShot = 1f;
@@ -121,6 +124,17 @@ public class PlayerController : MonoBehaviour
 
         //transform.position += movement * moveSpeed * Time.deltaTime;
         charCont.Move(movement * Time.deltaTime);
+
+
+        if (allGuns[selectedGun].muzzleFlash.activeInHierarchy)
+        {
+            muzzleCounters -= Time.deltaTime;
+
+            if(muzzleCounters <= 0) {
+                allGuns[selectedGun].muzzleFlash.SetActive(false);
+            }
+        }
+        
 
         if (!overHeated)
         {
@@ -227,6 +241,9 @@ public class PlayerController : MonoBehaviour
 
             UIController.instance.overheatedMessage.gameObject.SetActive(true);
         }
+
+        allGuns[selectedGun].muzzleFlash.SetActive(true);
+        muzzleCounters = muzzleDisplayTime;
     }
 
     private void LateUpdate()
@@ -243,5 +260,7 @@ public class PlayerController : MonoBehaviour
         }
 
         allGuns[selectedGun].gameObject.SetActive(true);
+
+        allGuns[selectedGun].muzzleFlash.SetActive(false);
     }
 }
