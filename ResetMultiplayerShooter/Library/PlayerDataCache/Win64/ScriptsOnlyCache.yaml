@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Launcher
+    - RoomButton
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
@@ -24,11 +25,15 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
     - UnityEngine.UI.Outline
     - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     PhotonRealtime:
@@ -69,14 +74,25 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: Launcher
+    methodName: OpenRoomBrowser
+  - assembly: Assembly-CSharp
+    fullTypeName: Launcher
+    methodName: LeaveRoom
   - assembly: Assembly-CSharp
     fullTypeName: Launcher
     methodName: OpenRoomCreate
   - assembly: Assembly-CSharp
     fullTypeName: Launcher
     methodName: CreateRoom
+  - assembly: Assembly-CSharp
+    fullTypeName: Launcher
+    methodName: CloseRoomBrowser
   - assembly: Assembly-CSharp
     fullTypeName: Launcher
     methodName: CloseErrorScreen
@@ -125,6 +141,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3240}
     - Class: 114
+      Script: {instanceID: 3426}
+    - Class: 114
+      Script: {instanceID: 4076}
+    - Class: 114
       Script: {instanceID: 4322}
     - Class: 114
       Script: {instanceID: 4336}
@@ -141,11 +161,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6528}
     - Class: 114
+      Script: {instanceID: 6540}
+    - Class: 114
       Script: {instanceID: 6896}
     - Class: 114
       Script: {instanceID: 6982}
     - Class: 114
+      Script: {instanceID: 7690}
+    - Class: 114
       Script: {instanceID: 8190}
+    - Class: 114
+      Script: {instanceID: 25848}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -279,7 +305,7 @@ ScriptsOnlyBuild:
     className: PlayerNumbering
   - hash:
       serializedVersion: 2
-      Hash: 7cada50117c5addfe49918c2b7ac6229
+      Hash: 75c1a2c52f922a269cc8656dcb18126c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Launcher
@@ -1195,6 +1221,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 89cd2c6f6970caf8e5117cdfab93024f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomButton
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
