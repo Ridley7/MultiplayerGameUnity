@@ -91,6 +91,9 @@ ScriptsOnlyBuild:
     fullTypeName: Launcher
     methodName: CreateRoom
   - assembly: Assembly-CSharp
+    fullTypeName: RoomButton
+    methodName: OpenRoom
+  - assembly: Assembly-CSharp
     fullTypeName: Launcher
     methodName: CloseRoomBrowser
   - assembly: Assembly-CSharp
@@ -149,29 +152,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4336}
     - Class: 114
-      Script: {instanceID: 4610}
+      Script: {instanceID: 4598}
     - Class: 114
-      Script: {instanceID: 5174}
+      Script: {instanceID: 4612}
     - Class: 114
-      Script: {instanceID: 5396}
+      Script: {instanceID: 5176}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 5398}
     - Class: 114
-      Script: {instanceID: 6180}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6528}
+      Script: {instanceID: 6182}
     - Class: 114
-      Script: {instanceID: 6540}
+      Script: {instanceID: 6530}
     - Class: 114
-      Script: {instanceID: 6896}
+      Script: {instanceID: 6542}
     - Class: 114
-      Script: {instanceID: 6982}
+      Script: {instanceID: 6898}
     - Class: 114
-      Script: {instanceID: 7690}
+      Script: {instanceID: 6984}
     - Class: 114
-      Script: {instanceID: 8190}
+      Script: {instanceID: 7692}
     - Class: 114
-      Script: {instanceID: 25848}
+      Script: {instanceID: 8192}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -675,6 +678,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 89cd2c6f6970caf8e5117cdfab93024f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomButton
   - hash:
       serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
@@ -1221,12 +1230,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 89cd2c6f6970caf8e5117cdfab93024f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RoomButton
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main Menu.unity

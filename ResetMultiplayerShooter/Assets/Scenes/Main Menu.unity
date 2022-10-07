@@ -1668,15 +1668,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1812278303}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RoomButton, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6059449261413162958, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
       propertyPath: m_Name
@@ -2470,6 +2486,34 @@ PrefabInstance:
     - target: {fileID: 6059449261413162953, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2112383816}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Launcher, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059449261413162955, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6059449261413162958, guid: 3fd54c53807bde84aa4e956d52436afd, type: 3}
       propertyPath: m_Name
