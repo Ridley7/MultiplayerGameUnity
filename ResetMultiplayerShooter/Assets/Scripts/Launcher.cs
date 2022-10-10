@@ -24,6 +24,8 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     public GameObject roomScreen;
     public TMP_Text roomNameText;
+    public TMP_Text playerNameLabel;
+    private List<TMP_Text> allPlayerNames = new List<TMP_Text>();
 
     public GameObject errorScreen;
     public TMP_Text errorText;
@@ -31,6 +33,13 @@ public class Launcher : MonoBehaviourPunCallbacks
     public GameObject roomBrowserScreen;
     public RoomButton theRoomButton;
     public List<RoomButton> allRoomButtons = new List<RoomButton>();
+
+    public GameObject nameInputScreen;
+    public TMP_InputField nameInput;
+    private bool hasSetNick;
+
+    public string levelToPlay;
+    public GameObject startButton;
 
     // Start is called before the first frame update
     void Start()
@@ -51,14 +60,16 @@ public class Launcher : MonoBehaviourPunCallbacks
         roomScreen.SetActive(false);
         errorScreen.SetActive(false);
         roomBrowserScreen.SetActive(false);
+        nameInputScreen.SetActive(false);
     }
 
     public override void OnConnectedToMaster()
     {
-        //base.OnConnectedToMaster();
-        
+        //base.OnConnectedToMaster();        
 
         PhotonNetwork.JoinLobby();
+
+        PhotonNetwork.AutomaticallySyncScene = true;
 
         loadingText.text = "Joining Lobby...";
     }
@@ -68,6 +79,23 @@ public class Launcher : MonoBehaviourPunCallbacks
         //base.OnJoinedLobby();
         CloseMenus();
         menuButtons.SetActive(true);
+
+        PhotonNetwork.NickName = Random.Range(0, 1000).ToString();
+
+        if (!hasSetNick)
+        {
+            CloseMenus();
+            nameInputScreen.SetActive(true);
+
+            if (PlayerPrefs.HasKey("playerName"))
+            {
+                nameInput.text = PlayerPrefs.GetString("playerName");
+            }
+        }
+        else
+        {
+            PhotonNetwork.NickName = PlayerPrefs.GetString("playerName");
+        }
     }
 
    public void OpenRoomCreate()
@@ -100,6 +128,55 @@ public class Launcher : MonoBehaviourPunCallbacks
         roomScreen.SetActive(true);
 
         roomNameText.text = PhotonNetwork.CurrentRoom.Name;
+
+        ListAllPlayers();
+
+        if (PhotonNetwork.IsMasterClient)
+        {
+            startButton.SetActive(true);
+        }
+        else
+        {
+            startButton.SetActive(false);
+        }
+    }
+
+    private void ListAllPlayers()
+    {
+        foreach(TMP_Text player in allPlayerNames)
+        {
+            Destroy(player.gameObject);
+        }
+
+        allPlayerNames.Clear();
+
+        Player[] players = PhotonNetwork.PlayerList;
+
+        for(int i = 0; i < players.Length; i++)
+        {
+            TMP_Text newPlayerLabel = Instantiate(playerNameLabel, playerNameLabel.transform.parent);
+            newPlayerLabel.text = players[i].NickName;
+            newPlayerLabel.gameObject.SetActive(true);
+
+            allPlayerNames.Add(newPlayerLabel);
+        }
+    }
+
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        //base.OnPlayerEnteredRoom(newPlayer);
+        TMP_Text newPlayerLabel = Instantiate(playerNameLabel, playerNameLabel.transform.parent);
+        newPlayerLabel.text = newPlayer.NickName;
+        newPlayerLabel.gameObject.SetActive(true);
+
+        allPlayerNames.Add(newPlayerLabel);
+
+    }
+
+    public override void OnPlayerLeftRoom(Player otherPlayer)
+    {
+        //base.OnPlayerLeftRoom(otherPlayer);
+        ListAllPlayers();
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message)
@@ -175,6 +252,26 @@ public class Launcher : MonoBehaviourPunCallbacks
         CloseMenus();
         loadingText.text = "Joining Room";
         loadingScreen.SetActive(true);
+    }
+
+    public void SetNickName()
+    {
+        if (!string.IsNullOrEmpty(nameInput.text))
+        {
+            PhotonNetwork.NickName = nameInput.text;
+
+            PlayerPrefs.SetString("playerName", nameInput.text);
+
+            CloseMenus();
+            menuButtons.SetActive(true);
+
+            hasSetNick = true;
+        }
+    }
+
+    public void StartGame()
+    {
+        PhotonNetwork.LoadLevel(levelToPlay);
     }
 
     public void QuitGame()

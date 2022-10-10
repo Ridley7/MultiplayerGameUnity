@@ -1,8 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Gun
     - Launcher
+    - PlayerController
     - RoomButton
+    - SpawnManager
+    - UIController
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
@@ -34,6 +38,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     PhotonRealtime:
@@ -76,6 +81,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
     - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
@@ -83,16 +89,25 @@ ScriptsOnlyBuild:
     methodName: OpenRoomBrowser
   - assembly: Assembly-CSharp
     fullTypeName: Launcher
-    methodName: LeaveRoom
+    methodName: StartGame
   - assembly: Assembly-CSharp
     fullTypeName: Launcher
     methodName: OpenRoomCreate
   - assembly: Assembly-CSharp
     fullTypeName: Launcher
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: Launcher
     methodName: CreateRoom
+  - assembly: Assembly-CSharp
+    fullTypeName: Launcher
+    methodName: LeaveRoom
   - assembly: Assembly-CSharp
     fullTypeName: RoomButton
     methodName: OpenRoom
+  - assembly: Assembly-CSharp
+    fullTypeName: Launcher
+    methodName: SetNickName
   - assembly: Assembly-CSharp
     fullTypeName: Launcher
     methodName: CloseRoomBrowser
@@ -182,6 +197,85 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Map 1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 2694}
+    - Class: 114
+      Script: {instanceID: 2928}
+    - Class: 114
+      Script: {instanceID: 4840}
+    - Class: 114
+      Script: {instanceID: 5308}
+    - Class: 114
+      Script: {instanceID: 5398}
+    - Class: 114
+      Script: {instanceID: 6026}
+    - Class: 114
+      Script: {instanceID: 6062}
+    - Class: 114
+      Script: {instanceID: 6182}
+    - Class: 114
+      Script: {instanceID: 6530}
+    - Class: 114
+      Script: {instanceID: 6660}
+    - Class: 114
+      Script: {instanceID: 6898}
+    - Class: 114
+      Script: {instanceID: 7432}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -308,7 +402,7 @@ ScriptsOnlyBuild:
     className: PlayerNumbering
   - hash:
       serializedVersion: 2
-      Hash: 75c1a2c52f922a269cc8656dcb18126c
+      Hash: 803c155cbbebce56142eef9fe356dde8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Launcher
@@ -1233,4 +1327,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
+  - Assets/Scenes/Map 1.unity
   playerPath: D:/Documentos/borrar_multiplayer_udemy/ResetMultiplayerShooter.exe
