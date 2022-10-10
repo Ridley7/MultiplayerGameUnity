@@ -1,15 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DestroyOverTime
     - Gun
     - Launcher
+    - MatchManager
     - PlayerController
+    - PlayerSpawner
     - RoomButton
     - SpawnManager
     - UIController
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
+    - Photon.Pun.PhotonTransformView
+    - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -89,6 +94,9 @@ ScriptsOnlyBuild:
     methodName: OpenRoomBrowser
   - assembly: Assembly-CSharp
     fullTypeName: Launcher
+    methodName: QuickJoin
+  - assembly: Assembly-CSharp
+    fullTypeName: Launcher
     methodName: StartGame
   - assembly: Assembly-CSharp
     fullTypeName: Launcher
@@ -138,8 +146,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -157,6 +163,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2928}
     - Class: 114
+      Script: {instanceID: 3152}
+    - Class: 114
       Script: {instanceID: 3240}
     - Class: 114
       Script: {instanceID: 3426}
@@ -171,6 +179,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4612}
     - Class: 114
+      Script: {instanceID: 4840}
+    - Class: 114
       Script: {instanceID: 5176}
     - Class: 114
       Script: {instanceID: 5398}
@@ -183,20 +193,34 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6542}
     - Class: 114
+      Script: {instanceID: 6660}
+    - Class: 114
       Script: {instanceID: 6898}
     - Class: 114
       Script: {instanceID: 6984}
     - Class: 114
       Script: {instanceID: 7692}
     - Class: 114
+      Script: {instanceID: 8068}
+    - Class: 114
       Script: {instanceID: 8192}
+    - Class: 114
+      Script: {instanceID: 54548}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -242,6 +266,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2928}
     - Class: 114
+      Script: {instanceID: 3152}
+    - Class: 114
       Script: {instanceID: 4840}
     - Class: 114
       Script: {instanceID: 5308}
@@ -261,6 +287,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6898}
     - Class: 114
       Script: {instanceID: 7432}
+    - Class: 114
+      Script: {instanceID: 8068}
+    - Class: 114
+      Script: {instanceID: 26212}
+    - Class: 114
+      Script: {instanceID: 47354}
+    - Class: 114
+      Script: {instanceID: 54548}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -284,6 +318,10 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -402,7 +440,7 @@ ScriptsOnlyBuild:
     className: PlayerNumbering
   - hash:
       serializedVersion: 2
-      Hash: 803c155cbbebce56142eef9fe356dde8
+      Hash: 98c38d01c2eea1c4cee5fac3a2312022
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Launcher
@@ -798,7 +836,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: db63f0f3fc141081c253b9a04b0e3d8f
+      Hash: 901d8e496fba598111593ba27063f087
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -1324,6 +1362,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d1f07c9e64b7817e6271f80bb03de25f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MatchManager
+  - hash:
+      serializedVersion: 2
+      Hash: d3bbd1f86b55a6168b664522b2cf57b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestroyOverTime
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
