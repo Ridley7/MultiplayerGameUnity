@@ -736,7 +736,7 @@ ScriptsOnlyBuild:
     className: GraphicToggleIsOnTransition
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 2db2dbc56e198155b8a2b52566e31c76
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MatchManager
@@ -1030,7 +1030,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 10c5b03a23fcc914594330ef8ea6c30c
+      Hash: ae14667cf532e3676d9be1a86b74e649
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIController
