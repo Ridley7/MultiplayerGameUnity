@@ -367,6 +367,7 @@
 "Assets/Scripts/DestroyOverTime.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/Launcher.cs"
+"Assets/Scripts/LeaderboardPlayer.cs"
 "Assets/Scripts/MatchManager.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerSpawner.cs"

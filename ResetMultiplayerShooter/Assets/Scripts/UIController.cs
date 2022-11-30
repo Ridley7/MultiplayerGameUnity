@@ -18,6 +18,9 @@ public class UIController : MonoBehaviour
     public TMP_Text killsText;
     public TMP_Text deathsText;
 
+    public GameObject leaderBoard;
+    public LeaderboardPlayer leaderboardPlayerDisplay;
+
     private void Awake()
     {
         instance = this;

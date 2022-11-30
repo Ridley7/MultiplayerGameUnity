@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - DestroyOverTime
     - Gun
     - Launcher
+    - LeaderboardPlayer
     - MatchManager
     - PlayerController
     - PlayerSpawner
@@ -152,6 +153,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -215,9 +218,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7698}
     - Class: 114
-      Script: {instanceID: 8074}
+      Script: {instanceID: 8076}
     - Class: 114
-      Script: {instanceID: 8198}
+      Script: {instanceID: 8200}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -316,9 +319,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6904}
     - Class: 114
+      Script: {instanceID: 6990}
+    - Class: 114
       Script: {instanceID: 7438}
     - Class: 114
-      Script: {instanceID: 8074}
+      Script: {instanceID: 7866}
+    - Class: 114
+      Script: {instanceID: 8076}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1030,7 +1037,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: ae14667cf532e3676d9be1a86b74e649
+      Hash: 5e2a6920aa0462a4b09eca2e50b2492f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIController
@@ -1298,6 +1305,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonRealtime.dll
     namespaceName: Photon.Realtime
     className: ConnectionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 426a33eb78388f13a663f5bab2b63b30
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LeaderboardPlayer
   - hash:
       serializedVersion: 2
       Hash: 3ba023cd67d72cace33969ab863e0fd4
